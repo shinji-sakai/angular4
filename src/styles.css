@@ -1,0 +1,157 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'LatoWebLight'; 
+    font-size:1.8rem; 
+    color: #464646;
+}
+/*===== Common CSS =====*/
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+.padding0 {
+    padding:0 !important;
+}
+
+.paddingT0 {
+    padding-top:0 !important;
+}
+
+.paddingB0 {
+    padding-bottom:0 !important;
+}
+
+.paddingR0 {
+    padding-right:0 !important;
+}
+
+.paddingL0 {
+    padding-left:0 !important;
+}
+
+ul, li {
+    list-style: none;
+    font-family: 'LatoWeb'
+}
+
+a, a:hover, a:focus {
+    text-decoration: none; 
+    outline: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'LatoWeb'; 
+    color: #12cdc5;
+
+}
+h1 {
+    font-size: 3.6rem; 
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+h3 {
+    font-size: 2.8rem;
+}
+
+h4 {
+    font-size: 2.4rem;
+}
+
+h5 {
+    font-size: 2.0rem;
+}
+
+h6 {
+    font-size: 1.6rem;
+}
+
+.container-fluid {
+	max-width: 1280px;	
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+	padding-right: 15px;
+}
+
+.btn {
+    font-family: 'LatoWeb'; 
+    margin-top: 3rem; 
+    outline: none!important;
+    line-height: 1.6;
+    font-weight: 400;
+    letter-spacing: 1.3px;
+    display: inline-block;
+}
+
+.btn + .btn {
+    margin-left: 3rem;
+}
+
+.btn-primary {
+    background: #3bd5cf; 
+    border: 1px solid #3bd5cf;
+}
+
+.btn-info {
+    background: #3bd5cf; 
+    border: 1px solid #3bd5cf;
+    color: #fff;
+    transition: all 0.25s ease-in;
+    border-radius: 5px;
+}
+
+.btn-default {
+    background:#fff; 
+    border: 1px solid #3bd5cf;
+    color: #3bd5cf;
+    transition: all 0.25s ease-in;
+}
+
+.btn-default a {
+    color: #3bd5cf;
+    transition: color 0.4s linear;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    background:#3bd5cf; 
+    border-color:#3bd5cf;
+}
+
+.btn-info:hover, .btn-info:focus, .btn-info:active {
+    background:#3bd5cf; 
+    border-color:#3bd5cf;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active {
+    background:#3bd5cf;
+    border-color:#3bd5cf;
+}
+
+.btn-default:hover a, .btn-default:focus a, .btn-default:active a {
+    color: #fff;
+}
+
+.wrapper {
+    max-width:1200px; 
+    display: block; 
+    margin: 0 auto;
+}
+
+.section-heading {
+    font-family: 'LatoWebLight'; 
+    color: #5d5d5d; 
+    text-transform: uppercase; 
+    text-align: center;
+}
+
+hr {
+    border-top: 1px solid #a7a7a7; 
+    box-shadow: 0 0px 4px #a7a7a7; 
+    -moz-box-shadow: 0 0px 4px #a7a7a7; 
+    -webkit-box-shadow: 0 0px 4px #a7a7a7; 
+    margin: 5rem 0;
+}

@@ -1,0 +1,175 @@
+<!--Header Start-->
+<header class="header clearfix">
+  <div class="header-con row fixed">
+    <!--Logo--> 
+    <div class="container-fluid">
+      <!--Navigation Start-->
+      <nav class="navbar navbar-inverse">
+        <div class="col-sm-3">
+          <a href="/" class="logo"><img src="../assets/images/levr-new-logo-v2.png" width="150" alt="LEVR" /></a> 
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+        </div>
+        <div class="col-sm-9">
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li *ngFor="let nav of navs">
+                <a href="{{nav.href}}" target="{{nav.target}}">{{nav.title}}</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  <!--Navigation End-->
+  </div>
+</header>
+<!--Header End-->
+
+<div class="container-fluid">
+  <!-- Section Start-->
+  <section class="text-center" style="padding-top: 150px;">
+    <div class="row">
+      <div class="col-sm-6 pull-right mech-construct">
+          <img class="img-responsive" src="../assets/images/mech_construct_color_17-02.eps.png" alt="Mech Construct Color"/>    
+      </div>
+      <div class="col-sm-6">
+        <h1>Software Development Heroes</h1>
+        <h1>&#123;&nbsp;on demand&nbsp;&#125;</h1>
+        <p>Turn on the autopilot and speed up your tech projects. Ideal for Minimum Viable Product launch, scale up products, R+D or simply to empower your existing tech team. We are ready to help!</p>
+
+        <div class="col-sm-12">
+          <button class="btn btn-info btn-lg">LEARN MORE</button>
+          <button class="btn btn-default btn-lg hire-us"><a href="https://docs.google.com/forms/u/1/d/e/1FAIpQLSf-rF4Xl_MB4IMhAGOhf879AFpKEBqdbnKRsplqzJLIs66kIA/viewform" target="_blank">HIRE US</a></button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <div class="logos">
+          <ul class="info-links" *ngFor="let link of links">
+            <li><a href="#">{{link.title}}</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section End-->
+
+  <!-- About Us Section Start-->
+  <section class="row about-us" style="padding-top: 50px;">
+    <div class="col-sm-12 section-heading">{{aboutHeading}}</div>
+    <div class="col-sm-6 ">
+        <img class="img-responsive" src="../assets/images/coding.eps.png" alt="Coding" />
+      <div class="col-sm-12">
+        <button class="btn btn-default btn-lg text-uppercase"><a href="https://docs.google.com/forms/u/1/d/e/1FAIpQLSf-rF4Xl_MB4IMhAGOhf879AFpKEBqdbnKRsplqzJLIs66kIA/viewform" target="_blank">Get a Quote</a></button>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div *ngFor="let data of aboutdata">
+        <h3>{{data.title}}</h3>
+        <p>{{data.content}}</p>
+      </div>  
+    </div>
+  </section>
+  <!-- About Us Section End-->
+
+  <!-- Jumbo-quote Start-->
+  <div class="jumbo-quote">
+    <div class="container-fluid"></div>
+  </div>
+  <!-- Jumbo-quote End-->
+
+  <!-- Tech Stack Section Start-->
+  <section class="tech-stack">
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8">
+        <hr/>
+      </div>
+      <div class="col-sm-2"></div>
+      <div class="col-sm-12 section-heading">{{techHeading}}</div>
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <img src="../assets/images/tech-stack-logos.png" class="img-responsive" />
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+  </section>
+  <!-- Tech Stack Section End-->
+
+  <!-- Some Our Lovely Clients Section Start-->
+  <section class="our-clients">
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8">
+        <hr />
+      </div>
+      <div class="col-sm-2"></div>
+      <div class="col-sm-12 section-heading">{{ourHeading}}</div>
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8 text-center" >
+        <ul class="clients-logos">
+          <li *ngFor="let client of clients">
+            <a href="{{client.href}}"><img src="{{client.img}}" class="img-responsive" alt="{{client.alt}}" /></a>
+          </li>
+        </ul>
+
+        <h3>
+          "The results we got were neatly made and professionally finished. I highly recommend
+          <strong>LEVR</strong>
+          for these looking for a high quality quick launch"
+        </h3>
+        <h6>{{clientInfo}}</h6>
+        <hr />
+
+        <h3>{{clientTag1}}<span>{{clientTag2}}</span></h3>
+        <button class="btn btn-primary btn-lg text-uppercase">Say HI</button>
+      </div>
+      <div class="col-sm-2"></div>
+    </div>
+  </section>
+</div>
+<!-- Some Our Lovely Clients Section End-->
+
+<!--Footer Start-->
+<div class="container-fluid">
+  <footer class="footer">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-9 footer-con">
+          <div class="text-right">
+            <a href="/"><img src="../assets/images/levr-logo-grey.png" alt="LEVR" width="150px"/></a>
+          </div>
+          <div class="text-center">
+            <ul class="nav navbar-nav footer-nav">
+                <li *ngFor="let nav of navs">
+                  <a href="{{nav.href}}" target="{{nav.target}}">{{nav.title}}</a>
+                </li>
+            </ul>
+            <p>
+              <span>{{copyData1}}</span>
+              <span>{{copyData2}}</span>
+            </p>
+          </div>
+          <div>
+            <ul class="social-icons">
+              <li *ngFor="let social of socials">
+                <a href="{{social.href}}" title="{{social.title}}" class="{{social.class}}" target="_blank"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-1"></div>
+      </div>
+    </div>
+  </footer>
+</div>
+<!--Footer End-->
+<router-outlet></router-outlet>

@@ -1,0 +1,378 @@
+/*===== Header CSS =====*/
+.header-con {
+    background: #fff;
+    padding: 15px 0 15px 0;
+}
+
+.fixed {
+    width:103%;
+    z-index: 1;
+    position: fixed;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
+}
+
+.header .header-con > .wrapper {
+    position: relative;
+}
+
+.logo {
+    padding-left: 15px;
+    float: left;
+    cursor: pointer;
+}
+
+.header ul li {
+    display: inline-block;
+}
+
+.header-strip {
+    background: #2a2938; 
+    padding:7px 0 4px;
+}
+
+.head-contact {
+    background:url(../images/phone-icon.png) no-repeat left 6px; 
+    padding:3px 0 0 14px; 
+    color: #b0aec3; 
+    float:left;
+}
+
+/*===== Navigation CSS =====*/
+.navbar {
+    margin:0; 
+    z-index:1;
+}
+
+.navbar-inverse {
+    background: none; 
+    border:1px solid transparent;
+}
+
+.nav {
+    font-size: 1.6rem; 
+    font-family: 'ubunturegular'; 
+    text-align: center; 
+    padding: 0 1rem 0 3rem;
+}
+
+.navbar-nav {
+    float: none;
+}
+
+.nav li {
+    padding: 15px 3rem 0;
+}
+
+.nav li:first-child {
+    background: none; 
+    padding-left: 5rem;
+}
+
+.nav li:last-child {
+    padding-right: 0; 
+    float:right;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    text-shadow: none !important;
+}
+
+.nav li a, .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a {
+    color: #5d5d5d;
+    padding: 0;
+}
+
+.nav li.active a, nav li a:hover, nav li a:focus, .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+    color: #00a7cf;
+    background: none;
+}
+
+.navbar-inverse .navbar-nav > li:last-child > a {
+    color: #00a7cf;
+    z-index: 10;
+}
+
+.hire-us {
+    width: 154px;
+}
+
+/*===== Info CSS =====*/
+.logos {
+    padding-top: 50px;
+}
+
+.info-links {
+    display: inline-block; 
+    margin: 20px 0;
+}
+
+.info-links > li {
+    display: inline-block; 
+    padding: 0 3rem; 
+    text-transform: uppercase;
+}
+
+.info-links > li > a {
+    color: #a5a5a5 !important; 
+    text-decoration: none !important;
+}
+
+/*===== About us CSS =====*/
+.about-us {
+}
+
+.about-us > div:not(.text-center) {
+    padding-top: 5rem;
+}
+
+.about-us h3 {
+    margin: 0 0 1.5rem;
+}
+
+.about-us p {
+    font-size: 1.4rem; 
+    margin-bottom: 3rem;
+}
+
+.about-us .btn {
+    margin-top: 10rem;
+}
+
+/*===== Tech Stack CSS =====*/
+.tech-stack {
+
+}
+
+.tech-stack img {
+    padding: 3rem 0;
+}
+
+
+/*===== Our Clients Logo's CSS =====*/
+.our-clients {
+
+}
+
+.clients-logos {
+    display: inline-block; 
+    margin: 3rem 0;
+}
+
+.clients-logos li {
+    display: inline-block; 
+    padding: 0 4rem; 
+    max-width: 25%;
+    vertical-align: middle;
+}
+
+.clients-logos li img {
+    max-width: 180px;
+}
+
+.clients-logos li:last-child img {
+    max-width: 85px;
+}
+
+.our-clients h3 {
+    color: #464646;
+}
+
+.our-clients h3 > span {
+    display: block; 
+    padding-top: 1rem;
+}
+
+.our-clients h6 {
+    margin-top:2rem;
+}
+
+/*===== Footer CSS =====*/
+footer {
+    margin: 6rem 0px 3rem;
+}
+
+.footer > .row {
+    border-top: 1px solid #a7a7a7; 
+    padding-top:3.5rem;
+}
+
+.footer-con { 
+    display: table;
+}
+
+.footer-con > div {
+    display: table-cell; 
+    padding: 0 1rem; 
+    vertical-align: middle;
+}
+
+.footer-con .navbar-nav {
+    display: inline-block;
+}
+
+.footer-con .navbar-nav li {
+    padding: 0 2rem; 
+    font-size: 1.4rem;
+}
+
+.footer-con .nav > li:last-child > a {
+    color: #00a7cf;
+}
+
+.footer-con .nav > li > a:focus, .footer-con .nav > li > a:hover {
+    background: none;
+}
+
+.footer-con > div > p {
+    color: #a5a5a5; 
+    font-size: 1.4rem;
+}
+
+.footer-con > div > p > span {
+    display: block; 
+    padding-top: 0.5rem;
+}
+
+/*===== Social Icons CSS =====*/
+.social-icons {
+    padding: 5px 0 1rem; 
+    margin: 0;
+}
+
+.social-icons li {
+    padding: 0 0 0 1.5rem; 
+    float: left;
+}
+
+.social-icons li a {
+    background: url(../assets/images/social-icons.png) no-repeat left top; 
+    display: inline-block; 
+    width: 30px; 
+    height: 31px;
+}
+
+.social-icons li a.facebook {
+    background-position: 0 0;
+}
+
+.social-icons li a.twitter {
+    background-position: 0px -60px;
+}
+
+.social-icons li a.linkedin {
+    background-position: 0px -120px;
+}
+
+.social-icons li a.instagram {
+    background-position: 0px -180px;
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+
+@media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 767px) {
+  hr {
+      margin:2rem 0;
+    }
+
+  h1 {
+      font-size: 2.8rem;
+    }
+
+  h3 {
+      font-size:1.8rem;
+    }
+
+  .info-links { 
+      display:none;
+    }
+
+  .header ul li {
+      display:block;
+    }
+
+  .navbar-toggle { 
+      background-color: #12cdc5 !important;
+    }
+
+  .navbar-toggle.collapsed { 
+      background-color: #333 !important;
+    }
+
+  #myNavbar {
+      border-color: #a4a4a4; 
+      background: #f1f1f1; 
+      position: absolute; 
+      width: 100%;
+    }
+
+  .navbar { 
+      padding-left: 0;
+    }
+
+  .nav li:first-child {
+      padding-left: 3rem;
+    }
+
+  .nav li:last-child {
+      padding-right: 3rem; 
+      float:none;
+    }
+  
+  .btn {
+      padding: 5px 1.5rem;
+    }
+    
+  .btn + .btn {
+      margin-left: 1rem;
+    }
+  
+  .mech-construct {
+      margin-top: 2rem;
+    }
+
+  .about-us .btn {
+      margin-top: 5rem;
+    }
+  
+  .clients-logos {
+      margin: 0;
+    }
+
+  .clients-logos li {
+      max-width: 100%; 
+      padding: 2rem 0; 
+      display: block; 
+      text-align: center;
+    }
+
+  .clients-logos li img {
+      margin: 0 auto;
+    }
+  
+  .footer-con {
+      width: 100%;
+    }
+    
+  .footer-con > div {
+      text-align: center !important; 
+      display: block;
+    }
+}
+@media screen and (max-width: 640px) {
+}
+@media screen and (max-width: 360px) {
+  .head-contact {
+      font-size: 15px; 
+      padding: 6px 0 2px 14px; 
+      margin-left: -5px;
+    }
+}
+@media screen and (max-width: 320px) {
+}
